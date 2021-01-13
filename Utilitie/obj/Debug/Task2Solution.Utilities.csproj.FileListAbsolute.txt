@@ -1,0 +1,2 @@
+C:\Users\hp\Git Repository\week 2\Utilitie\obj\Debug\Task2Solution.Utilities.csprojAssemblyReference.cache
+C:\Users\hp\Git Repository\week 2\Utilitie\obj\Debug\Task2Solution.Utilities.csproj.CoreCompileInputs.cache
