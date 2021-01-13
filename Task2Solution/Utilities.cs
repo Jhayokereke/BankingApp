@@ -2,7 +2,7 @@
 using System.Linq;
 using Task2Solution;
 
-namespace Task2Solution.Utilities
+namespace Task2Solution
 {
     class Utilities
     {

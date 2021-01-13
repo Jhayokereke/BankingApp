@@ -2,7 +2,7 @@
 
 namespace Task2Solution
 {
-    class Database
+    public class Database
     {
         public static List<IAccount> AccountsLog { get; set; } = new List<IAccount>();
 
