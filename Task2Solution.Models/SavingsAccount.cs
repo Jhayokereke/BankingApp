@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Task2Solution
+namespace Task2Solution.Models
 {
     class SavingsAccount : IAccount
     {
@@ -15,10 +15,5 @@ namespace Task2Solution
         public double CurrentBalance { get; set; }
 
         public DateTime DateCreated { get; set; }
-
-        public SavingsAccount()
-        {
-            AccountNumber = Utilities.AssignAccountNumber();
-        }
     }
 }

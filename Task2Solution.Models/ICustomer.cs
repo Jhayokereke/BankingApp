@@ -2,15 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Task2Solution
+namespace Task2Solution.Models
 {
-    public class Customer: ICustomer
+    public interface ICustomer
     {
-        public Customer()
-        {
-            ID = Guid.NewGuid().ToString();
-            UserAccounts = new List<CurrentAccount>();
-        }
         public string Name { get; set; }
 
         public string Email { get; set; }

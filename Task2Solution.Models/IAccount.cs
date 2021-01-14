@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Task2Solution
+namespace Task2Solution.Models
 {
     public interface IAccount
     {

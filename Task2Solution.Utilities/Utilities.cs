@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Linq;
-using Task2Solution;
+using Task2Solution.Data;
 
-namespace Task2Solution
+namespace Task2Solution.Utilities
 {
-    class Utilities
+    public class Utilities
     {
         public static bool AboveMinBal(double balance, double amount, double minValue)
         {
@@ -27,22 +27,6 @@ namespace Task2Solution
             //checks database to ensure no two randomly generated IDs are a complete match
             var matches = Database.AccountsLog.Any(p => long.Equals(p.AccountNumber, accountNumber));
             return matches;
-        }
-
-        public static long AssignAccountNumber()
-        {
-            Random random = new Random();
-            bool validAccountNumber = default;
-            long accountNumber;
-            do
-            {
-                accountNumber = random.Next(0060000000, 0069999999);
-                if (ValidateAccountNumber(accountNumber) == false)
-                {
-                    validAccountNumber = true;
-                }
-            } while (validAccountNumber == false);
-            return accountNumber;
         }
     }
 }

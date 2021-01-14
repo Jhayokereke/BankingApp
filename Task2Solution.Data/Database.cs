@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
+using Task2Solution.Models;
 
-namespace Task2Solution
+namespace Task2Solution.Data
 {
     public class Database
     {

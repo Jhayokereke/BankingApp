@@ -1,0 +1,134 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Task2Solution.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Task2Solution.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Task2Solution.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Task2Solution.Data.dll": {}
+        }
+      },
+      "Task2Solution.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Task2Solution.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Task2Solution.Models.dll": {}
+        }
+      },
+      "Task2Solution.Utilities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Task2Solution.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Task2Solution.Utilities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Task2Solution.Utilities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Task2Solution.Data/1.0.0": {
+      "type": "project",
+      "path": "../Task2Solution.Data/Task2Solution.Data.csproj",
+      "msbuildProject": "../Task2Solution.Data/Task2Solution.Data.csproj"
+    },
+    "Task2Solution.Models/1.0.0": {
+      "type": "project",
+      "path": "../Task2Solution.Models/Task2Solution.Models.csproj",
+      "msbuildProject": "../Task2Solution.Models/Task2Solution.Models.csproj"
+    },
+    "Task2Solution.Utilities/1.0.0": {
+      "type": "project",
+      "path": "../Task2Solution.Utilities/Task2Solution.Utilities.csproj",
+      "msbuildProject": "../Task2Solution.Utilities/Task2Solution.Utilities.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Task2Solution.Data >= 1.0.0",
+      "Task2Solution.Models >= 1.0.0",
+      "Task2Solution.Utilities >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\hp\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\hp\\Git Repository\\week 2\\Task2Solution.core\\Task2Solution.core.csproj",
+      "projectName": "Task2Solution.core",
+      "projectPath": "C:\\Users\\hp\\Git Repository\\week 2\\Task2Solution.core\\Task2Solution.core.csproj",
+      "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\hp\\Git Repository\\week 2\\Task2Solution.core\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Users\\hp\\Git Repository\\week 2\\Task2Solution.Data\\Task2Solution.Data.csproj": {
+              "projectPath": "C:\\Users\\hp\\Git Repository\\week 2\\Task2Solution.Data\\Task2Solution.Data.csproj"
+            },
+            "C:\\Users\\hp\\Git Repository\\week 2\\Task2Solution.Models\\Task2Solution.Models.csproj": {
+              "projectPath": "C:\\Users\\hp\\Git Repository\\week 2\\Task2Solution.Models\\Task2Solution.Models.csproj"
+            },
+            "C:\\Users\\hp\\Git Repository\\week 2\\Task2Solution.Utilities\\Task2Solution.Utilities.csproj": {
+              "projectPath": "C:\\Users\\hp\\Git Repository\\week 2\\Task2Solution.Utilities\\Task2Solution.Utilities.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

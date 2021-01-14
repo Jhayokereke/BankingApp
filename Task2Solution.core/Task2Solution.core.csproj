@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Task2Solution.Data\Task2Solution.Data.csproj" />
+    <ProjectReference Include="..\Task2Solution.Models\Task2Solution.Models.csproj" />
+    <ProjectReference Include="..\Task2Solution.Utilities\Task2Solution.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>
